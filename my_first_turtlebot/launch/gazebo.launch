@@ -1,0 +1,7 @@
+<launch>
+	
+	<node pkg="my_first_turtlebot" name="my_first_turtlebot" type="obstacle.py" />
+
+	<node name="turtlebot3_gazebo' pkg="gazebo" type="spawn_model" />
+
+</launch>
